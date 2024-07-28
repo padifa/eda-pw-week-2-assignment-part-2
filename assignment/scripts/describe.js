@@ -26,10 +26,12 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called name and set it to 'Dane' as a string.
+// Then we put a conditional if name is strictly equal to 'Mary'
+// We console.log 'Hi, Mary!'.
+// If not we console.log 'How do you do?'.
+// As name is not strictly equal to Mary
+// We will console.log 'How do you do?'.
 
 //CODE
 /*
@@ -45,10 +47,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make an undefined variable called 'secret' and another one called 'code' and we set it to 123 as a number.
+// Then we put a conditional if code is strictly equal to 123
+// then secret is super and code is code * 2 or if code is superior than 250, secret is duper.
+// We console.log 'super'.
 
 //CODE
 /*
@@ -70,10 +72,18 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called 'isStudent' and set it to true.
+// we make another variable called age and set it to 34.
+// And we make another variable called zip and set it to 55407
+// Then we put a compound conditional if 'isStudent is true and zip is greater than 80000 .
+// We console.log 'You're a student on the West Coast!'.
+// Then we put another compound conditional if 'isStudent' is not true and age is inferior to 30
+// We console.log 'What are your hobbies?'.
+// Then we put a conditional if 'isStudent' is strictly true
+// We console.log 'Welcome to Prime!'.
+// Then we put another conditional in the case none of those conditions are met.
+// We console.log 'How about the weather'.
+// At the end we will console.log 'Welcome to prime' because 'isStudent' is strictly true.
 
 //CODE
 /*
@@ -113,9 +123,9 @@ if (isStudent === true && zip > 80000 ) {
 /*
 let number = 1;
 
-// FIX - number-- decrements number, but the instructions ask to increment. 
+// FIX - number-- decrements number, but the instructions ask to increment.
 // Should be number++.
-number--; 
+number--;
 
 if (number >= 2) {
   console.log('yes');
@@ -133,9 +143,10 @@ if (number >= 2) {
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
-
+// FIX - colorOne should be set to 'Blue" and colorTwo set to red
 if (mix === true) {
   colorOne = 'purple';
+// Fix colorOne and colorTwo should be set to purple in a compound conditional.
 }
 */
 
@@ -146,7 +157,8 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-
+// FIX - time is not a constant but a variable
+// FIX - let time = 4;
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -162,8 +174,12 @@ const minAge = 21;
 
 if(minAge <= age) {
   console.log('no entry');
+// FIX - here, we should console.log 'enter' because the requirements have been met.
+// FIX - Should be console.log('enter');
 } else {
   console.log('enter');
+// FIX - The otherwise condition should be console.log 'no entry' because the condition haven't been met.
+// FIX - Should be console.log('no entry');
 }
 */
 
